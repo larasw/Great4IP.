@@ -23,10 +23,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.content_menu);
 
-        mFirebaseAuth = FirebaseAuth.getInstance();
-        mSignOut = (Button) findViewById(R.id.buttonSignOutHome);
+
+//        mFirebaseAuth = FirebaseAuth.getInstance();
+//        mSignOut = (Button) findViewById(R.id.buttonSignOutHome);
 
         mSignOut.setOnClickListener(this);
     }
