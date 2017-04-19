@@ -74,7 +74,7 @@
                     android:hint="Username"
                     android:inputType="textPersonName"
                     android:textColor="@color/biruAneh"
-                    android:textColorHint="@color/biruAneh"/>
+                    android:textColorHint="@color/biruAneh" />
 
                 <EditText
                     android:id="@+id/editPassword"
@@ -88,7 +88,7 @@
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:textColor="@color/biruAneh"
-                    android:textColorHint="@color/biruAneh"/>
+                    android:textColorHint="@color/biruAneh" />
             </LinearLayout>
 
             <EditText
@@ -102,7 +102,7 @@
                 android:hint="E-mail"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/biruAneh"
-                android:textColorHint="@color/biruAneh"/>
+                android:textColorHint="@color/biruAneh" />
 
             <EditText
                 android:id="@+id/editFakultas"
@@ -115,7 +115,7 @@
                 android:hint="Fakultas"
                 android:inputType="textPersonName"
                 android:textColor="@color/biruAneh"
-                android:textColorHint="@color/biruAneh"/>
+                android:textColorHint="@color/biruAneh" />
 
             <EditText
                 android:id="@+id/editProg.Study"
@@ -127,8 +127,9 @@
                 android:ems="10"
                 android:hint="Prog.Study"
                 android:inputType="textPersonName"
+                android:resources="Prog.Study"
                 android:textColor="@color/biruAneh"
-                android:textColorHint="@color/biruAneh"/>
+                android:textColorHint="@color/biruAneh" />
 
             <EditText
                 android:id="@+id/editNim"
@@ -139,20 +140,35 @@
                 android:background="#fff"
                 android:ems="10"
                 android:hint="Nim"
+                android:resources="Nim"
                 android:inputType="textPersonName"
                 android:textColor="@color/biruAneh"
-                android:textColorHint="@color/biruAneh"/>
+                android:textColorHint="@color/biruAneh" />
+
+            <EditText
+                android:id="@+id/editKelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="0.05"
+                android:background="#fff"
+                android:ems="10"
+                android:hint="Kelas"
+                android:resources="Kelas"
+                android:inputType="textPersonName"
+                android:textColor="@color/biruAneh"
+                android:textColorHint="@color/biruAneh" />
 
             <Button
                 android:id="@+id/SignUp"
                 android:layout_width="324dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:text="Sign Up"
+                android:layout_weight="0.04"
                 android:background="#F5DA1D"
-                android:layout_weight="0.04"/>
+                android:text="Sign Up" />
         </LinearLayout>
-        </LinearLayout>
+    </LinearLayout>
 
 
     </LinearLayout>
