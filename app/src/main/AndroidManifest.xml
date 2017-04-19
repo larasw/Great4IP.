@@ -18,12 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".HomeActivity" />
         <activity android:name=".ResetPasswordActivity" />
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".SettingsActivity"></activity>
     </application>
 
 </manifest>

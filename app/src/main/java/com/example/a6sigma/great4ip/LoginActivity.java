@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if(user!=null){
                     String uid = user.getUid();
-                    mIntent = new Intent(getApplicationContext(), HomeActivity.class);
+                    mIntent = new Intent(getApplicationContext(), MenuActivity.class);
                     mIntent.putExtra("uid", uid);
                     startActivity(mIntent);
                 }
@@ -91,6 +91,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         } else if (v == mLogin){
             if(validateUser(loginModel)){
                 userLogin(loginModel);
+                mIntent = new Intent(LoginActivity.this, MenuActivity.class);
+                startActivity(mIntent);
             } else {
                 reset();
             }
@@ -129,7 +131,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         mProgressDialog.dismiss();
                         if(task.isSuccessful()){
                             finish();
-                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
                             startActivity(intent);
                         } else {
                             Toast.makeText(LoginActivity.this, "Your Email or password is incorrect", Toast.LENGTH_SHORT).show();
