@@ -19,6 +19,117 @@
          08:30 - 11:30 Finance
          11:30 - 14:30 IS Security</string>
 
+
+        <string-array name="Fakultas">
+            <item>Faculty of Industrial and System Engineering</item>
+            <item>Faculty of Electrical Engineering</item>
+            <item>Faculty of Informatics</item>
+            <item>Faculty of Business Economics</item>
+            <item>Faculty of Communication and Business</item>
+            <item>Faculty of Creative Industries</item>
+            <item>Faculty of Applied Sciences</item>
+            <item>Post Graduate</item>
+        </string-array>
+
+        <string-array name="Prog.Study">
+
+            <item>Information System</item>
+            <item>Industrial Engneering</item>
+
+
+            <item>Electrical Engineering</item>
+            <item>Telecommunications engineering</item>
+            <item>Physics technic</item>
+            <item>Computer system</item>
+            <item>Master of Electrical Communication</item>
+            <item>expertise group</item>
+
+            <item>Technical Information</item>
+            <item>Computational Science</item>
+            <item>Master of Information Technology</item>
+            <item>expertise group></item>
+
+
+            <item>Binsis and Information Technology Management</item>
+            <item>Accounting</item>
+            <item>Master in Management</item>
+            <item>expertise group</item>
+
+
+            <item>Communication Studies</item>
+            <item>Business Administration</item>
+            <item>expertise group</item>
+
+
+            <item>Fine Arts</item>
+            <item>Textile Craft and Fashion</item>
+            <item>Interior design</item>
+            <item>Product design</item>
+            <item>Visual communication design</item>
+            <item>expertise group</item>
+
+
+
+            <item>Computer Engineering</item>
+            <item>Marketing Management</item>
+            <item>hospitality</item>
+            <item>Informatics Management</item>
+            <item>Computerized accounting</item>
+            <item>Telecommunications engineering</item>
+            <item>Technical Information</item>
+            <item>expertise group</item>
+
+
+            <item>Master of Electrical Communication</item>
+            <item>Master of Information Technology</item>
+            <item>Master in Management</item>
+        </string-array>
+
+
+            <string-array name="Nim">
+                <item>1202140271</item>
+                <item>1202140278</item>
+                <item>1202140261</item>
+                <item>1202142262</item>
+                <item>1202140256</item>
+                <item>1202140274</item>
+                <item>1202140257</item>
+                <item>1202140266</item>
+                <item>1202142260</item>
+                <item>1202141275</item>
+                <item>1202140264</item>
+                <item>1202144269</item>
+                <item>1202140273</item>
+                <item>1202142265</item>
+                <item>1202140272</item>
+                <item>1202142268</item>
+                <item>1202141255</item>
+            </string-array>
+
+
+            <string-array name="Kelas">
+                <item>SI38INT</item>
+                <item>SI3801</item>
+                <item>SI3802</item>
+                <item>SI3803</item>
+                <item>SI3804</item>
+                <item>SI3805</item>
+                <item>SI3806</item>
+
+            </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_settings">Settings</string>
